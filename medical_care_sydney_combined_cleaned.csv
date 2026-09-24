@@ -1,0 +1,130 @@
+﻿State,SA3 code,SA3 name,Remoteness/ socioeconomic status (SES),Per cent of patients with costs (%),25th percentile ($),50th percentile (Median) ($),75th percentile ($),90th percentile ($),Average no. of services per patient(b),Average out-of-pocket cost per patient ($)(b),Average Medicare benefits expenditure per patient ($)(b),Service type,Per cent of patients with GP costs (%),Per cent of patients with specialist costs (%),Per cent of patients with obstetric costs (%),25th percentile ($).1,50th percentile (Median) ($).1,75th percentile ($).1,90th percentile ($).1
+NSW,12501,Auburn,Major cities - lower SES,23.3,77,152,296,565,16.5,73.0,837.0,Total Medicare services,,,,,,,
+NSW,11901,Bankstown,Major cities - lower SES,32.2,75,152,302,566,18.3,93.0,967.0,Total Medicare services,,,,,,,
+NSW,11501,Baulkham Hills,Major cities - higher SES,50.5,80,178,384,708,16.6,171.0,910.0,Total Medicare services,,,,,,,
+NSW,11601,Blacktown,Major cities - lower SES,27.7,77,151,290,523,18.5,76.0,972.0,Total Medicare services,,,,,,,
+NSW,11602,Blacktown - North,Major cities - higher SES,34.8,82,167,323,601,17.1,112.0,897.0,Total Medicare services,,,,,,,
+NSW,11701,Botany,Major cities - lower SES,40.8,71,168,360,682,16.7,144.0,892.0,Total Medicare services,,,,,,,
+NSW,12701,Bringelly - Green Valley,Major cities - lower SES,30.1,83,160,303,538,17.0,86.0,872.0,Total Medicare services,,,,,,,
+NSW,12301,Camden,Major cities - medium SES,44.7,73,158,322,581,16.5,127.0,873.0,Total Medicare services,,,,,,,
+NSW,12302,Campbelltown (NSW),Major cities - lower SES,29.0,81,157,291,509,18.0,74.0,941.0,Total Medicare services,,,,,,,
+NSW,12001,Canada Bay,Major cities - higher SES,51.9,75,186,418,805,17.8,207.0,991.0,Total Medicare services,,,,,,,
+NSW,11902,Canterbury,Major cities - lower SES,28.8,80,161,314,596,18.3,89.0,968.0,Total Medicare services,,,,,,,
+NSW,12502,Carlingford,Major cities - medium SES,38.8,82,177,374,705,16.8,134.0,913.0,Total Medicare services,,,,,,,
+NSW,12101,Chatswood - Lane Cove,Major cities - higher SES,60.1,82,213,487,932,15.3,262.0,862.0,Total Medicare services,,,,,,,
+NSW,12801,Cronulla - Miranda - Caringbah,Major cities - higher SES,57.6,84,194,410,741,17.8,206.0,976.0,Total Medicare services,,,,,,,
+NSW,11502,Dural - Wisemans Ferry,Major cities - higher SES,58.5,80,187,407,748,17.2,199.0,963.0,Total Medicare services,,,,,,,
+NSW,11801,Eastern Suburbs - North,Major cities - higher SES,68.9,101,255,600,1155,17.0,361.0,1026.0,Total Medicare services,,,,,,,
+NSW,11802,Eastern Suburbs - South,Major cities - higher SES,52.1,76,188,416,804,16.6,206.0,923.0,Total Medicare services,,,,,,,
+NSW,12702,Fairfield,Major cities - lower SES,26.7,76,147,276,489,18.1,69.0,932.0,Total Medicare services,,,,,,,
+NSW,11503,Hawkesbury,Inner regional,51.0,72,158,326,600,17.0,143.0,937.0,Total Medicare services,,,,,,,
+NSW,12102,Hornsby,Major cities - higher SES,54.8,80,187,411,773,15.7,198.0,858.0,Total Medicare services,,,,,,,
+NSW,11903,Hurstville,Major cities - medium SES,42.4,73,171,361,679,17.2,141.0,932.0,Total Medicare services,,,,,,,
+NSW,11904,Kogarah - Rockdale,Major cities - medium SES,40.0,82,177,364,682,17.9,142.0,961.0,Total Medicare services,,,,,,,
+NSW,12103,Ku-ring-gai,Major cities - higher SES,67.1,90,231,525,964,15.8,290.0,918.0,Total Medicare services,,,,,,,
+NSW,12002,Leichhardt,Major cities - higher SES,63.1,82,205,474,911,16.2,278.0,938.0,Total Medicare services,,,,,,,
+NSW,12703,Liverpool,Major cities - lower SES,30.4,84,160,304,538,17.9,87.0,922.0,Total Medicare services,,,,,,,
+NSW,12201,Manly,Major cities - higher SES,73.6,76,196,455,865,14.5,296.0,829.0,Total Medicare services,,,,,,,
+NSW,11702,Marrickville - Sydenham - Petersham,Major cities - medium SES,47.9,73,175,389,758,16.9,178.0,936.0,Total Medicare services,,,,,,,
+NSW,12503,Merrylands - Guildford,Major cities - lower SES,25.4,73,147,278,494,18.3,68.0,949.0,Total Medicare services,,,,,,,
+NSW,11603,Mount Druitt,Major cities - lower SES,18.5,77,146,261,451,17.8,46.0,913.0,Total Medicare services,,,,,,,
+NSW,12104,North Sydney - Mosman,Major cities - higher SES,76.2,96,244,572,1072,16.0,371.0,941.0,Total Medicare services,,,,,,,
+NSW,12504,Parramatta,Major cities - medium SES,32.3,77,164,325,612,17.8,103.0,948.0,Total Medicare services,,,,,,,
+NSW,12601,Pennant Hills - Epping,Major cities - higher SES,51.4,83,196,439,808,15.8,190.0,871.0,Total Medicare services,,,,,,,
+NSW,12403,Penrith,Major cities - medium SES,35.2,81,161,324,577,17.3,102.0,927.0,Total Medicare services,,,,,,,
+NSW,12202,Pittwater,Major cities - higher SES,72.7,86,213,471,863,15.7,279.0,893.0,Total Medicare services,,,,,,,
+NSW,12404,Richmond - Windsor,Major cities - medium SES,48.1,68,152,319,578,17.3,132.0,946.0,Total Medicare services,,,,,,,
+NSW,11504,Rouse Hill - McGraths Hill,Major cities - higher SES,43.3,79,170,338,625,16.5,137.0,891.0,Total Medicare services,,,,,,,
+NSW,12602,Ryde - Hunters Hill,Major cities - higher SES,48.9,80,183,404,788,16.6,185.0,913.0,Total Medicare services,,,,,,,
+NSW,12405,St Marys,Major cities - medium SES,25.7,87,157,301,542,17.5,71.0,917.0,Total Medicare services,,,,,,,
+NSW,12003,Strathfield - Burwood - Ashfield,Major cities - medium SES,38.2,80,177,374,731,17.4,138.0,937.0,Total Medicare services,,,,,,,
+NSW,12802,Sutherland - Menai - Heathcote,Major cities - higher SES,58.3,71,176,373,688,17.3,193.0,938.0,Total Medicare services,,,,,,,
+NSW,11703,Sydney Inner City,Major cities - higher SES,53.9,71,184,442,912,16.6,230.0,933.0,Total Medicare services,,,,,,,
+NSW,12203,Warringah,Major cities - higher SES,64.4,78,190,420,779,15.5,235.0,865.0,Total Medicare services,,,,,,,
+NSW,12303,Wollondilly,Inner regional,41.0,77,160,311,558,17.2,113.0,912.0,Total Medicare services,,,,,,,
+NSW,12501,Auburn,Major cities - lower SES,,4,9,19,33,,,,GP,4.6,,,,,,
+NSW,11901,Bankstown,Major cities - lower SES,,5,10,20,31,,,,GP,9.5,,,,,,
+NSW,11501,Baulkham Hills,Major cities - higher SES,,7,16,28,40,,,,GP,27.3,,,,,,
+NSW,11601,Blacktown,Major cities - lower SES,,4,9,19,33,,,,GP,5.6,,,,,,
+NSW,11602,Blacktown - North,Major cities - higher SES,,5,10,20,33,,,,GP,9.6,,,,,,
+NSW,11701,Botany,Major cities - lower SES,,7,15,29,43,,,,GP,19.0,,,,,,
+NSW,12701,Bringelly - Green Valley,Major cities - lower SES,,5,10,19,29,,,,GP,6.0,,,,,,
+NSW,12301,Camden,Major cities - medium SES,,6,13,22,31,,,,GP,19.8,,,,,,
+NSW,12302,Campbelltown (NSW),Major cities - lower SES,,4,10,18,28,,,,GP,5.6,,,,,,
+NSW,12001,Canada Bay,Major cities - higher SES,,7,14,28,41,,,,GP,25.6,,,,,,
+NSW,11902,Canterbury,Major cities - lower SES,,5,11,23,38,,,,GP,6.7,,,,,,
+NSW,12502,Carlingford,Major cities - medium SES,,7,15,28,41,,,,GP,15.9,,,,,,
+NSW,12101,Chatswood - Lane Cove,Major cities - higher SES,,13,25,38,48,,,,GP,43.8,,,,,,
+NSW,12801,Cronulla - Miranda - Caringbah,Major cities - higher SES,,8,17,28,38,,,,GP,31.7,,,,,,
+NSW,11502,Dural - Wisemans Ferry,Major cities - higher SES,,8,17,27,38,,,,GP,34.1,,,,,,
+NSW,11801,Eastern Suburbs - North,Major cities - higher SES,,15,29,45,60,,,,GP,54.3,,,,,,
+NSW,11802,Eastern Suburbs - South,Major cities - higher SES,,11,22,38,50,,,,GP,32.1,,,,,,
+NSW,12702,Fairfield,Major cities - lower SES,,3,7,15,24,,,,GP,4.7,,,,,,
+NSW,11503,Hawkesbury,Inner regional,,7,14,23,32,,,,GP,27.6,,,,,,
+NSW,12102,Hornsby,Major cities - higher SES,,9,17,28,38,,,,GP,33.8,,,,,,
+NSW,11903,Hurstville,Major cities - medium SES,,6,13,23,35,,,,GP,19.4,,,,,,
+NSW,11904,Kogarah - Rockdale,Major cities - medium SES,,5,11,21,34,,,,GP,14.8,,,,,,
+NSW,12103,Ku-ring-gai,Major cities - higher SES,,14,26,38,48,,,,GP,51.7,,,,,,
+NSW,12002,Leichhardt,Major cities - higher SES,,13,25,40,48,,,,GP,45.7,,,,,,
+NSW,12703,Liverpool,Major cities - lower SES,,4,9,17,28,,,,GP,6.6,,,,,,
+NSW,12201,Manly,Major cities - higher SES,,14,26,38,49,,,,GP,61.0,,,,,,
+NSW,11702,Marrickville - Sydenham - Petersham,Major cities - medium SES,,10,21,34,43,,,,GP,28.9,,,,,,
+NSW,12503,Merrylands - Guildford,Major cities - lower SES,,4,8,16,28,,,,GP,4.7,,,,,,
+NSW,11603,Mount Druitt,Major cities - lower SES,,3,5,11,24,,,,GP,2.6,,,,,,
+NSW,12104,North Sydney - Mosman,Major cities - higher SES,,17,33,48,57,,,,GP,67.7,,,,,,
+NSW,12504,Parramatta,Major cities - medium SES,,5,11,23,36,,,,GP,9.5,,,,,,
+NSW,12601,Pennant Hills - Epping,Major cities - higher SES,,9,18,30,39,,,,GP,31.4,,,,,,
+NSW,12403,Penrith,Major cities - medium SES,,5,11,19,30,,,,GP,10.3,,,,,,
+NSW,12202,Pittwater,Major cities - higher SES,,14,25,38,48,,,,GP,60.8,,,,,,
+NSW,12404,Richmond - Windsor,Major cities - medium SES,,6,13,22,30,,,,GP,24.1,,,,,,
+NSW,11504,Rouse Hill - McGraths Hill,Major cities - higher SES,,6,12,22,33,,,,GP,18.0,,,,,,
+NSW,12602,Ryde - Hunters Hill,Major cities - higher SES,,9,20,35,47,,,,GP,27.3,,,,,,
+NSW,12405,St Marys,Major cities - medium SES,,3,7,15,28,,,,GP,3.4,,,,,,
+NSW,12003,Strathfield - Burwood - Ashfield,Major cities - medium SES,,8,19,33,43,,,,GP,15.6,,,,,,
+NSW,12802,Sutherland - Menai - Heathcote,Major cities - higher SES,,7,14,24,33,,,,GP,33.5,,,,,,
+NSW,11703,Sydney Inner City,Major cities - higher SES,,11,24,38,49,,,,GP,39.1,,,,,,
+NSW,12203,Warringah,Major cities - higher SES,,11,21,34,43,,,,GP,46.9,,,,,,
+NSW,12303,Wollondilly,Inner regional,,6,13,23,33,,,,GP,14.6,,,,,,
+NSW,12501,Auburn,Major cities - lower SES,,33,66,107,147,,,,Specialist,,58.8,28.7,57.0,227.0,357.0,587.0
+NSW,11901,Bankstown,Major cities - lower SES,,33,63,105,147,,,,Specialist,,65.4,33.8,50.0,225.0,326.0,468.0
+NSW,11501,Baulkham Hills,Major cities - higher SES,,44,77,115,148,,,,Specialist,,79.6,60.9,44.0,211.0,319.0,504.0
+NSW,11601,Blacktown,Major cities - lower SES,,32,62,102,137,,,,Specialist,,60.0,31.1,42.0,206.0,301.0,450.0
+NSW,11602,Blacktown - North,Major cities - higher SES,,41,74,113,147,,,,Specialist,,72.3,54.9,37.0,204.0,305.0,442.0
+NSW,11701,Botany,Major cities - lower SES,,37,74,122,157,,,,Specialist,,67.7,48.5,57.0,177.0,428.0,603.0
+NSW,12701,Bringelly - Green Valley,Major cities - lower SES,,39,71,107,138,,,,Specialist,,69.4,39.5,40.0,169.0,298.0,446.0
+NSW,12301,Camden,Major cities - medium SES,,43,75,111,137,,,,Specialist,,78.3,46.8,49.0,204.0,311.0,429.0
+NSW,12302,Campbelltown (NSW),Major cities - lower SES,,36,64,103,131,,,,Specialist,,66.3,19.4,35.0,162.0,301.0,434.0
+NSW,12001,Canada Bay,Major cities - higher SES,,45,86,127,158,,,,Specialist,,76.3,57.8,47.0,231.0,414.0,663.0
+NSW,11902,Canterbury,Major cities - lower SES,,32,64,107,149,,,,Specialist,,62.1,27.4,45.0,205.0,357.0,483.0
+NSW,12502,Carlingford,Major cities - medium SES,,41,76,115,147,,,,Specialist,,72.6,44.5,59.0,216.0,330.0,505.0
+NSW,12101,Chatswood - Lane Cove,Major cities - higher SES,,53,92,137,170,,,,Specialist,,81.6,70.7,63.0,251.0,445.0,716.0
+NSW,12801,Cronulla - Miranda - Caringbah,Major cities - higher SES,,40,75,118,153,,,,Specialist,,82.6,61.4,39.0,227.0,362.0,479.0
+NSW,11502,Dural - Wisemans Ferry,Major cities - higher SES,,47,79,115,148,,,,Specialist,,83.6,63.9,24.0,198.0,293.0,445.0
+NSW,11801,Eastern Suburbs - North,Major cities - higher SES,,54,96,139,172,,,,Specialist,,81.0,78.1,55.0,191.0,417.0,615.0
+NSW,11802,Eastern Suburbs - South,Major cities - higher SES,,42,81,127,163,,,,Specialist,,71.7,60.6,50.0,177.0,422.0,641.0
+NSW,12702,Fairfield,Major cities - lower SES,,32,61,97,130,,,,Specialist,,62.1,32.2,43.0,180.0,278.0,406.0
+NSW,11503,Hawkesbury,Inner regional,,41,71,107,135,,,,Specialist,,78.8,47.8,29.0,43.0,154.0,370.0
+NSW,12102,Hornsby,Major cities - higher SES,,49,84,124,161,,,,Specialist,,81.9,53.9,50.0,206.0,314.0,485.0
+NSW,11903,Hurstville,Major cities - medium SES,,38,72,114,152,,,,Specialist,,70.9,50.1,46.0,227.0,359.0,489.0
+NSW,11904,Kogarah - Rockdale,Major cities - medium SES,,38,73,115,155,,,,Specialist,,70.7,46.7,48.0,222.0,361.0,484.0
+NSW,12103,Ku-ring-gai,Major cities - higher SES,,53,92,135,167,,,,Specialist,,85.2,70.4,67.0,232.0,384.0,614.0
+NSW,12002,Leichhardt,Major cities - higher SES,,55,97,141,171,,,,Specialist,,78.0,69.5,37.0,173.0,428.0,606.0
+NSW,12703,Liverpool,Major cities - lower SES,,38,69,107,142,,,,Specialist,,68.4,34.4,40.0,184.0,313.0,444.0
+NSW,12201,Manly,Major cities - higher SES,,55,94,134,168,,,,Specialist,,85.4,71.3,102.0,266.0,450.0,1306.0
+NSW,11702,Marrickville - Sydenham - Petersham,Major cities - medium SES,,43,84,129,167,,,,Specialist,,68.7,48.8,29.0,72.0,392.0,552.0
+NSW,12503,Merrylands - Guildford,Major cities - lower SES,,32,63,102,142,,,,Specialist,,58.2,17.5,49.0,205.0,301.0,454.0
+NSW,11603,Mount Druitt,Major cities - lower SES,,31,60,98,129,,,,Specialist,,49.2,18.8,39.0,150.0,301.0,454.0
+NSW,12104,North Sydney - Mosman,Major cities - higher SES,,56,95,140,174,,,,Specialist,,84.5,74.0,72.0,237.0,471.0,1010.0
+NSW,12504,Parramatta,Major cities - medium SES,,38,71,112,147,,,,Specialist,,65.4,31.7,64.0,215.0,322.0,475.0
+NSW,12601,Pennant Hills - Epping,Major cities - higher SES,,48,83,121,156,,,,Specialist,,80.9,59.2,62.0,220.0,348.0,471.0
+NSW,12403,Penrith,Major cities - medium SES,,39,71,107,132,,,,Specialist,,70.7,39.4,52.0,104.0,198.0,291.0
+NSW,12202,Pittwater,Major cities - higher SES,,50,86,127,157,,,,Specialist,,87.0,74.2,62.0,192.0,328.0,583.0
+NSW,12404,Richmond - Windsor,Major cities - medium SES,,39,69,105,130,,,,Specialist,,76.8,49.9,33.0,64.0,217.0,322.0
+NSW,11504,Rouse Hill - McGraths Hill,Major cities - higher SES,,44,76,112,147,,,,Specialist,,77.4,56.6,38.0,185.0,292.0,467.0
+NSW,12602,Ryde - Hunters Hill,Major cities - higher SES,,45,82,123,157,,,,Specialist,,76.8,64.7,63.0,231.0,399.0,691.0
+NSW,12405,St Marys,Major cities - medium SES,,36,67,106,132,,,,Specialist,,62.8,24.9,44.0,102.0,227.0,327.0
+NSW,12003,Strathfield - Burwood - Ashfield,Major cities - medium SES,,38,76,121,156,,,,Specialist,,67.6,39.5,38.0,200.0,401.0,596.0
+NSW,12802,Sutherland - Menai - Heathcote,Major cities - higher SES,,42,76,117,149,,,,Specialist,,83.1,62.0,45.0,238.0,366.0,506.0
+NSW,11703,Sydney Inner City,Major cities - higher SES,,54,96,144,177,,,,Specialist,,71.8,59.8,38.0,144.0,417.0,626.0
+NSW,12203,Warringah,Major cities - higher SES,,47,84,127,162,,,,Specialist,,83.0,62.2,69.0,224.0,424.0,831.0
+NSW,12303,Wollondilly,Inner regional,,40,70,108,139,,,,Specialist,,75.6,36.5,42.0,227.0,333.0,512.0

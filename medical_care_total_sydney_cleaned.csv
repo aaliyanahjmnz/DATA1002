@@ -1,0 +1,44 @@
+﻿State,SA3 code,SA3 name,Remoteness/ socioeconomic status (SES),Per cent of patients with costs (%),25th percentile ($),50th percentile (Median) ($),75th percentile ($),90th percentile ($),Average no. of services per patient(b),Average out-of-pocket cost per patient ($)(b),Average Medicare benefits expenditure per patient ($)(b)
+NSW,12501,Auburn,Major cities - lower SES,23.3,77,152,296,565,16.5,73,837
+NSW,11901,Bankstown,Major cities - lower SES,32.2,75,152,302,566,18.3,93,967
+NSW,11501,Baulkham Hills,Major cities - higher SES,50.5,80,178,384,708,16.6,171,910
+NSW,11601,Blacktown,Major cities - lower SES,27.7,77,151,290,523,18.5,76,972
+NSW,11602,Blacktown - North,Major cities - higher SES,34.8,82,167,323,601,17.1,112,897
+NSW,11701,Botany,Major cities - lower SES,40.8,71,168,360,682,16.7,144,892
+NSW,12701,Bringelly - Green Valley,Major cities - lower SES,30.1,83,160,303,538,17.0,86,872
+NSW,12301,Camden,Major cities - medium SES,44.7,73,158,322,581,16.5,127,873
+NSW,12302,Campbelltown (NSW),Major cities - lower SES,29.0,81,157,291,509,18.0,74,941
+NSW,12001,Canada Bay,Major cities - higher SES,51.9,75,186,418,805,17.8,207,991
+NSW,11902,Canterbury,Major cities - lower SES,28.8,80,161,314,596,18.3,89,968
+NSW,12502,Carlingford,Major cities - medium SES,38.8,82,177,374,705,16.8,134,913
+NSW,12101,Chatswood - Lane Cove,Major cities - higher SES,60.1,82,213,487,932,15.3,262,862
+NSW,12801,Cronulla - Miranda - Caringbah,Major cities - higher SES,57.6,84,194,410,741,17.8,206,976
+NSW,11502,Dural - Wisemans Ferry,Major cities - higher SES,58.5,80,187,407,748,17.2,199,963
+NSW,11801,Eastern Suburbs - North,Major cities - higher SES,68.9,101,255,600,1155,17.0,361,1026
+NSW,11802,Eastern Suburbs - South,Major cities - higher SES,52.1,76,188,416,804,16.6,206,923
+NSW,12702,Fairfield,Major cities - lower SES,26.7,76,147,276,489,18.1,69,932
+NSW,11503,Hawkesbury,Inner regional,51.0,72,158,326,600,17.0,143,937
+NSW,12102,Hornsby,Major cities - higher SES,54.8,80,187,411,773,15.7,198,858
+NSW,11903,Hurstville,Major cities - medium SES,42.4,73,171,361,679,17.2,141,932
+NSW,11904,Kogarah - Rockdale,Major cities - medium SES,40.0,82,177,364,682,17.9,142,961
+NSW,12103,Ku-ring-gai,Major cities - higher SES,67.1,90,231,525,964,15.8,290,918
+NSW,12002,Leichhardt,Major cities - higher SES,63.1,82,205,474,911,16.2,278,938
+NSW,12703,Liverpool,Major cities - lower SES,30.4,84,160,304,538,17.9,87,922
+NSW,12201,Manly,Major cities - higher SES,73.6,76,196,455,865,14.5,296,829
+NSW,11702,Marrickville - Sydenham - Petersham,Major cities - medium SES,47.9,73,175,389,758,16.9,178,936
+NSW,12503,Merrylands - Guildford,Major cities - lower SES,25.4,73,147,278,494,18.3,68,949
+NSW,11603,Mount Druitt,Major cities - lower SES,18.5,77,146,261,451,17.8,46,913
+NSW,12104,North Sydney - Mosman,Major cities - higher SES,76.2,96,244,572,1072,16.0,371,941
+NSW,12504,Parramatta,Major cities - medium SES,32.3,77,164,325,612,17.8,103,948
+NSW,12601,Pennant Hills - Epping,Major cities - higher SES,51.4,83,196,439,808,15.8,190,871
+NSW,12403,Penrith,Major cities - medium SES,35.2,81,161,324,577,17.3,102,927
+NSW,12202,Pittwater,Major cities - higher SES,72.7,86,213,471,863,15.7,279,893
+NSW,12404,Richmond - Windsor,Major cities - medium SES,48.1,68,152,319,578,17.3,132,946
+NSW,11504,Rouse Hill - McGraths Hill,Major cities - higher SES,43.3,79,170,338,625,16.5,137,891
+NSW,12602,Ryde - Hunters Hill,Major cities - higher SES,48.9,80,183,404,788,16.6,185,913
+NSW,12405,St Marys,Major cities - medium SES,25.7,87,157,301,542,17.5,71,917
+NSW,12003,Strathfield - Burwood - Ashfield,Major cities - medium SES,38.2,80,177,374,731,17.4,138,937
+NSW,12802,Sutherland - Menai - Heathcote,Major cities - higher SES,58.3,71,176,373,688,17.3,193,938
+NSW,11703,Sydney Inner City,Major cities - higher SES,53.9,71,184,442,912,16.6,230,933
+NSW,12203,Warringah,Major cities - higher SES,64.4,78,190,420,779,15.5,235,865
+NSW,12303,Wollondilly,Inner regional,41.0,77,160,311,558,17.2,113,912
