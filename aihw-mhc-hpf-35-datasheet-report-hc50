@@ -1,0 +1,20 @@
+import pandas as pd
+
+# Read the original Excel file
+df = pd.read_excel(
+    "aihw-mhc-hpf-35-datasheet-report-hc50.xlsx",
+    sheet_name="Total-SA3",
+    header=?
+)
+
+# Remove unnecessary rows and columns
+...
+
+# Clean missing values
+...
+
+# Clean cost columns
+...
+
+# Save cleaned data
+df.to_csv("medical_care_cleaned.csv", index=False)
