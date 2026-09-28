@@ -1,3 +1,7 @@
 datasets/SuburbData26Q1.csv
 datasets/crime_sydney.csv
 datasets/crime_long.csv
+
+# ABS Census Data
+datasets/2021Census*.csv
+metadata/*.xlsx
