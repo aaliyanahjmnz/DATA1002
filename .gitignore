@@ -2,7 +2,6 @@ datasets/SuburbData26Q1.csv
 datasets/crime_sydney.csv
 datasets/crime_long.csv
 datasets/crime_rates.csv
-datasets/suburb_population.csv
 
 # ABS Census Data
 datasets/2021Census*.csv
