@@ -1,13 +1,13 @@
 import pandas as pd
 
 ##############################
-# LOAD CRIME DATA
+# LOAD GREATER SYDNEY SUBURBS
 ##############################
 
-crime = pd.read_csv("datasets/crime_long.csv")
+sydney = pd.read_csv("greater_sydney_suburbs.csv")
 
-crime_suburbs = set(
-    crime["Suburb"]
+sydney_suburbs = set(
+    sydney["Suburb"]
     .astype(str)
     .str.strip()
     .str.upper()
@@ -105,12 +105,19 @@ suburb_population = suburb_population.rename(
 ##############################
 
 suburb_population = suburb_population[
-    suburb_population["Suburb"].isin(crime_suburbs)
+    suburb_population["Suburb"].isin(sydney_suburbs)
 ]
 
 ##############################
 # SORT & SAVE
 ##############################
+
+suburb_population = (
+    suburb_population
+    .groupby("Suburb", as_index=False)
+    ["Population"]
+    .sum()
+)
 
 suburb_population = suburb_population.sort_values(
     "Suburb"
@@ -121,9 +128,14 @@ suburb_population.to_csv(
     index=False
 )
 
-suburb_population = (
-    suburb_population
-    .groupby("Suburb", as_index=False)
-    ["Population"]
-    .sum()
+##############################
+# VALIDATION
+##############################
+
+print(
+    f"Unique suburbs: {suburb_population['Suburb'].nunique()}"
+)
+
+print(
+    f"Rows: {len(suburb_population)}"
 )
