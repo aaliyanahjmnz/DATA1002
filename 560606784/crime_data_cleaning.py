@@ -121,7 +121,8 @@ print("\n=== FINAL DATASET SUMMARY ===")
 print(f"Rows: {len(crime_long):,}")
 print(f"Columns: {crime_long.shape[1]}")
 print(f"Suburbs: {crime_long['Suburb'].nunique()}")
-print(f"Crime Types: {crime_long['Subcategory'].nunique()}")
+print(f"Crime Types: {crime_long['Offence category'].nunique()}")
+print(f"Crime Sub-Types: {crime_long['Subcategory'].nunique()}")
 print(
     f"Date Range: {crime_long['Date'].min().date()} "
     f"to {crime_long['Date'].max().date()}"
@@ -131,3 +132,13 @@ print(
 
 #crime_long.to_csv("datasets/crime_long.csv",index=False)
 #print("\nSaved cleaned dataset to datasets/crime_long.csv")
+
+print("\n=== OFFENCE CATEGORIES ===")
+
+for category in sorted(crime_long["Offence category"].unique()):
+    print(category)
+
+print("\n=== CRIME SUB-TYPES ===")
+
+for subcategory in sorted(crime_long["Subcategory"].unique()):
+    print(subcategory)
