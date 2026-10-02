@@ -1,50 +1,11 @@
 import pandas as pd
 
 ##############################
-# LOAD POPULATION DATA
+# LOAD CLEANED POPULATION DATA
 ##############################
 
 population = pd.read_csv(
-    "datasets/2021Census_G01_NSW_SAL.csv"
-)
-
-population = population[
-    ["SAL_CODE_2021", "Tot_P_P"]
-]
-
-##############################
-# LOAD SUBURB LOOKUP
-##############################
-
-lookup = pd.read_excel(
-    "metadata/2021SAL.xlsx",
-    sheet_name="2021_ASGS_Non_ABS_Structures"
-)
-
-# Keep only suburb records
-lookup = lookup[
-    lookup["ASGS_Structure"] == "SAL"
-]
-
-lookup = lookup[
-    ["Census_Code_2021", "Census_Name_2021"]
-]
-
-lookup = lookup.rename(
-    columns={
-        "Census_Code_2021": "SAL_CODE_2021",
-        "Census_Name_2021": "Suburb"
-    }
-)
-
-##############################
-# MERGE POPULATION + SUBURB
-##############################
-
-population = population.merge(
-    lookup,
-    on="SAL_CODE_2021",
-    how="inner"
+    "datasets/suburb_population.csv"
 )
 
 population["Suburb"] = (
@@ -53,10 +14,8 @@ population["Suburb"] = (
     .str.upper()
 )
 
-population = population.rename(
-    columns={
-        "Tot_P_P": "Population"
-    }
+print(
+    f"Population suburbs: {population['Suburb'].nunique()}"
 )
 
 ##############################
@@ -66,6 +25,19 @@ population = population.rename(
 crime = pd.read_csv(
     "datasets/crime_long.csv"
 )
+
+crime["Date"] = pd.to_datetime(
+    crime["Date"]
+)
+
+
+##############################
+# KEEP ONLY 2021 CRIME DATA
+##############################
+
+crime = crime[
+    crime["Date"].dt.year == 2021
+]
 
 crime["Suburb"] = (
     crime["Suburb"]
@@ -101,6 +73,19 @@ crime_rates["Crime Rate per 1000"] = (
     crime_rates["Count"] /
     crime_rates["Population"]
 ) * 1000
+
+
+print(f"Suburbs before threshold: {len(crime_rates)}")
+
+##############################
+# REMOVE VERY SMALL POPULATIONS
+##############################
+
+crime_rates = crime_rates[
+    crime_rates["Population"] >= 1000
+]
+
+print(f"Suburbs after threshold: {len(crime_rates)}")
 
 ##############################
 # SORT RESULTS

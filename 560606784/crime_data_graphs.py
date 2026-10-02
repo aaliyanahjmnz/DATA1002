@@ -52,14 +52,22 @@ x = crime_rates_data["Suburb"].tail(10)
 y = crime_rates_data["Crime Rate per 1000"].tail(10)
 
 # Make bar chart
-plt.bar(x, y, color='skyblue')
+plt.barh(x, y, color='skyblue')
 
 # Add labels and title
 plt.xticks(rotation=45, ha='right')
-plt.title("Top 10 Suburbs with Lowest Crime Rates")
-plt.xlabel("Suburb")
-plt.ylabel("Crime Rate per 1000 Residents")
+plt.title("Lowest Crime Rates by Suburb in Greater Sydney (2021)")
+plt.xlabel("Crime Rate per 1000 Residents")
+plt.ylabel("Suburb")
 plt.tight_layout()
+
+for i, v in enumerate(y):
+    plt.text(
+        v + 0.1,
+        i,
+        f"{v:.1f}",
+        va="center"
+    )
 
 ##################### PLOT 2: CRIME COMPOSITION OF LOWEST CRIME RATES #####################
 
@@ -93,12 +101,12 @@ category_mapping = {
 
 # Safest suburbs (based on lowest crime rates graph)
 safest_suburbs = [
-    "GILEAD",
-    "DANGAR ISLAND",
-    "WESTLEIGH",
-    "WILLOUGHBY EAST",
-    "KIRKHAM",
-    "ST IVES CHASE"
+    "CHATSWOOD WEST",
+    "EAST RYDE",
+    "NORTH EPPING",
+    "DAVIDSON",
+    "BARDWELL VALLEY",
+    "BONNET BAY"
 ]
 
 safe_data = crime_data[crime_data["Suburb"].isin(safest_suburbs)].copy()
@@ -151,99 +159,48 @@ plt.tight_layout()
 
 ##################### PLOT 3: CRIME RATE VS VIOLENT CRIME #####################
 
-# Violent crimes
-violent_categories = [
-    "Homicide",
-    "Assault",
-    "Sexual offences",
-    "Robbery",
-    "Abduction and kidnapping"
-]
-
-# Violent crime percentage
+# Get safest suburbs based on lowest crime rates
 safest_suburbs = (
     crime_rates_data
     .sort_values("Crime Rate per 1000")
-    .head(20)["Suburb"]
+    .head(10)["Suburb"]
     .tolist()
 )
+
+# Aggregate crime data per year
+crime_data["Year"] = pd.to_datetime(
+    crime_data["Date"]
+).dt.year
 
 safe_data = crime_data[
     crime_data["Suburb"].isin(safest_suburbs)
 ].copy()
 
-total_crime = (
+annual_crime = (
     safe_data
-    .groupby("Suburb")["Count"]
+    .groupby(["Suburb", "Date"])["Count"]
     .sum()
     .reset_index()
-    .rename(columns={"Count": "Total Crime"})
 )
 
-violent_crime = (
-    safe_data[
-        safe_data["Offence category"].isin(
-            violent_categories
-        )
-    ]
-    .groupby("Suburb")["Count"]
-    .sum()
-    .reset_index()
-    .rename(columns={"Count": "Violent Crime"})
+# Create boxplot
+plt.figure(figsize=(10, 6))
+
+annual_crime.boxplot(
+    column="Count",
+    by="Suburb",
+    grid=False,
+    rot=45
 )
-
-violent_summary = total_crime.merge(
-    violent_crime,
-    on="Suburb",
-    how="left"
-)
-
-violent_summary["Violent Crime"] = (
-    violent_summary["Violent Crime"]
-    .fillna(0)
-)
-
-violent_summary["Violent Crime %"] = (
-    violent_summary["Violent Crime"]
-    /
-    violent_summary["Total Crime"]
-) * 100
-
-# Add crime rates
-violent_summary = violent_summary.merge(
-    crime_rates_data[
-        ["Suburb", "Crime Rate per 1000"]
-    ],
-    on="Suburb"
-)
-
-# Plot
-
-plt.figure(figsize=(8, 6))
-
-plt.scatter(
-    violent_summary["Crime Rate per 1000"],
-    violent_summary["Violent Crime %"],
-    s=100
-)
-
-for _, row in violent_summary.iterrows():
-    plt.annotate(
-        row["Suburb"],
-        (
-            row["Crime Rate per 1000"],
-            row["Violent Crime %"]
-        ),
-        xytext=(5, 5),
-        textcoords="offset points"
-    )
-
-plt.xlabel("Crime Rate per 1,000 Residents")
-plt.ylabel("Violent Crime (%)")
 
 plt.title(
-    "Crime Rate vs Violent Crime Proportion\nin the Safest Greater Sydney Suburbs"
+    "Monthly Crime Distribution in the Safest Greater Sydney Suburbs"
 )
+
+plt.suptitle("")  # Removes automatic Pandas title
+
+plt.xlabel("Suburb")
+plt.ylabel("Annual Recorded Crime")
 
 plt.tight_layout()
 plt.show()
