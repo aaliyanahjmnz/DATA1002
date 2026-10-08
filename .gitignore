@@ -6,3 +6,6 @@ datasets/crime_rates.csv
 # ABS Census Data
 datasets/2021Census*.csv
 metadata/*.xlsx
+
+# ABS shapefile
+SAL_2021_AUST_GDA94_SHP/

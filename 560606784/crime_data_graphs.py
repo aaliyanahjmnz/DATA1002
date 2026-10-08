@@ -160,7 +160,6 @@ plt.legend(
 )
 
 plt.tight_layout()
-plt.show()
 
 ##################### PLOT 3: CRIME RATE VS VIOLENT CRIME #####################
 
