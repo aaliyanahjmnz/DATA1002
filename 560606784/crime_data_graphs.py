@@ -106,7 +106,11 @@ safest_suburbs = [
     "NORTH EPPING",
     "DAVIDSON",
     "BARDWELL VALLEY",
-    "BONNET BAY"
+    "BONNET BAY",
+    "CHERRYBROOK",
+    "EAST KILLARA",
+    "WILLOUGHBY EAST",
+    "BLAIR ATHOL"
 ]
 
 safe_data = crime_data[crime_data["Suburb"].isin(safest_suburbs)].copy()
@@ -156,6 +160,7 @@ plt.legend(
 )
 
 plt.tight_layout()
+plt.show()
 
 ##################### PLOT 3: CRIME RATE VS VIOLENT CRIME #####################
 
@@ -203,4 +208,3 @@ plt.xlabel("Suburb")
 plt.ylabel("Annual Recorded Crime")
 
 plt.tight_layout()
-plt.show()
