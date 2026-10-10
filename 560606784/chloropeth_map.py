@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 gdf = gpd.read_file(
-    "SAL_2021_AUST_GDA94_SHP/SAL_2021_AUST_GDA94.shp"
+    "datasets/SAL_2021_AUST_GDA94_SHP/SAL_2021_AUST_GDA94.shp"
 )
 
 greater_sydney = pd.read_csv(
