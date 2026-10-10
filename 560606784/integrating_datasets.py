@@ -78,3 +78,32 @@ df.to_csv(
 )
 
 print(df.head(10))
+
+# Get top 10 suburbs by SLI
+top10 = (
+    df.nlargest(10, "Student_Liveability_Index")
+    .copy()
+)
+
+# Add ranking column
+top10.insert(0, "Rank", range(1, len(top10) + 1))
+
+# Round values
+score_cols = [
+    "Student_Liveability_Index",
+    "price",
+    "crime",
+    "transport",
+    "amenities",
+    "medical"
+]
+
+top10[score_cols] = top10[score_cols].round(2)
+
+# Save CSV
+top10.to_csv(
+    "datasets/scores/top_10_suburbs.csv",
+    index=False
+)
+
+print(top10)
