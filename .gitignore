@@ -1,11 +1,11 @@
-datasets/SuburbData26Q1.csv
-datasets/crime_sydney.csv
-datasets/crime_long.csv
-datasets/crime_rates.csv
+560606784/datasets/SuburbData26Q1.csv
+560606784/datasets/crime_sydney.csv
+560606784/datasets/crime_long.csv
+560606784/datasets/crime_rates.csv
 
 # ABS Census Data
-datasets/2021Census*.csv
-metadata/*.xlsx
+560606784/datasets/2021Census*.csv
+560606784/metadata/*.xlsx
 
 # ABS shapefile
-SAL_2021_AUST_GDA94_SHP/
+datasets/SAL_2021_AUST_GDA94_SHP/**

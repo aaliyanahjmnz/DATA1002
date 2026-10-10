@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Load data
-crime_rates = pd.read_csv("datasets/crime_rates.csv")
-crime_long = pd.read_csv("datasets/crime_long.csv")
+crime_rates = pd.read_csv("560606784/datasets/crime_rates.csv")
+crime_long = pd.read_csv("560606784/datasets/crime_long.csv")
 
 # --- 1. Crime Rate Score (70%) ---
 min_rate = crime_rates["Crime Rate per 1000"].min()

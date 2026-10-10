@@ -7,7 +7,7 @@ gdf = gpd.read_file(
 )
 
 greater_sydney = pd.read_csv(
-    "greater_sydney_suburbs.csv"
+    "datasets/greater_sydney_suburbs.csv"
 )
 
 # Standardise names

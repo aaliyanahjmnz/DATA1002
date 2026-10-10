@@ -1,7 +1,7 @@
 import pandas as pd
 
-crime = pd.read_csv("datasets/SuburbData26Q1.csv")
-sydney = pd.read_csv("greater_sydney_suburbs.csv")
+crime = pd.read_csv("560606784/datasets/SuburbData26Q1.csv")
+sydney = pd.read_csv("datasets/greater_sydney_suburbs.csv")
 
 ############### SUBURB STANDARDISATION ###############
 
@@ -130,8 +130,8 @@ print(
 
 ############### SAVE CLEANED DATASET ###############
 
-#crime_long.to_csv("datasets/crime_long.csv",index=False)
-#print("\nSaved cleaned dataset to datasets/crime_long.csv")
+crime_long.to_csv("560606784/datasets/crime_long.csv",index=False)
+print("\nSaved cleaned dataset to 560606784/datasets/crime_long.csv")
 
 print("\n=== OFFENCE CATEGORIES ===")
 

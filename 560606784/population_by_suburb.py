@@ -4,7 +4,7 @@ import pandas as pd
 # LOAD GREATER SYDNEY SUBURBS
 ##############################
 
-sydney = pd.read_csv("greater_sydney_suburbs.csv")
+sydney = pd.read_csv("datasets/greater_sydney_suburbs.csv")
 
 sydney_suburbs = set(
     sydney["Suburb"]
@@ -19,7 +19,7 @@ sydney_suburbs = set(
 ##############################
 
 population = pd.read_csv(
-    "datasets/2021Census_G01_NSW_SAL.csv"
+    "560606784/datasets/2021Census_G01_NSW_SAL.csv"
 )
 
 population = population[
@@ -31,7 +31,7 @@ population = population[
 ##############################
 
 lookup = pd.read_excel(
-    "metadata/2021SAL.xlsx",
+    "560606784/metadata/2021SAL.xlsx",
     sheet_name="2021_ASGS_Non_ABS_Structures"
 )
 
@@ -124,7 +124,7 @@ suburb_population = suburb_population.sort_values(
 )
 
 suburb_population.to_csv(
-    "datasets/suburb_population.csv",
+    "560606784/datasets/suburb_population.csv",
     index=False
 )
 

@@ -4,7 +4,7 @@ import pandas as pd
 ############### LOAD IN DATA ###############
 
 # Load the cleaned crime data
-crime_data = pd.read_csv("datasets/crime_long.csv")
+crime_data = pd.read_csv("560606784/datasets/crime_long.csv")
 
 # Convert the "Date" column to datetime format
 crime_data["Date"] = pd.to_datetime(crime_data["Date"])
@@ -13,7 +13,7 @@ crime_data["Date"] = pd.to_datetime(crime_data["Date"])
 population_data = pd.read_csv("datasets/suburb_population.csv")
 
 # Load the crime rates data
-crime_rates_data = pd.read_csv("datasets/crime_rates.csv")
+crime_rates_data = pd.read_csv("560606784/datasets/crime_rates.csv")
 
 ############### SUMMARY STATISTICS ###############
 

@@ -6,7 +6,7 @@ medical = pd.read_csv("datasets/scores/medical_care_suburb_scores.csv")
 price = pd.read_csv("datasets/scores/price_score.csv")
 amenities = pd.read_csv("datasets/scores/building_scores_by_suburb.csv")
 transport = pd.read_csv("datasets/scores/greater_sydney_transport_scores.csv")
-greater_sydney = pd.read_csv("greater_sydney_suburbs.csv")
+greater_sydney = pd.read_csv("datasets/greater_sydney_suburbs.csv")
 
 for df_ in [crime, medical, price, amenities, transport, greater_sydney]:
     df_["Suburb"] = (
