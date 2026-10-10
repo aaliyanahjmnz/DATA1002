@@ -4,7 +4,7 @@ import pandas as pd
 crime = pd.read_csv("datasets/scores/crime_scores.csv")
 medical = pd.read_csv("datasets/scores/medical_care_suburb_scores.csv")
 price = pd.read_csv("datasets/scores/price_score.csv")
-amenities = pd.read_csv("datasets/scores/amenities_scores.csv")
+amenities = pd.read_csv("datasets/scores/building_scores_by_suburb.csv")
 transport = pd.read_csv("datasets/scores/greater_sydney_transport_scores.csv")
 greater_sydney = pd.read_csv("greater_sydney_suburbs.csv")
 
@@ -16,11 +16,25 @@ for df_ in [crime, medical, price, amenities, transport, greater_sydney]:
     )
 
 # Rename score columns
-crime = crime.rename(columns={"Crime_Score": "crime"})
-medical = medical.rename(columns={medical.columns[1]: "medical"})
-price = price.rename(columns={price.columns[1]: "price"})
-amenities = amenities.rename(columns={amenities.columns[1]: "amenities"})
-transport = transport.rename(columns={"TRANSPORT_SCORE_10": "transport"})
+crime = crime[["Suburb", "Crime_Score"]].rename(
+    columns={"Crime_Score": "crime"}
+)
+
+medical = medical[["Suburb", medical.columns[1]]].rename(
+    columns={medical.columns[1]: "medical"}
+)
+
+price = price[["Suburb", price.columns[1]]].rename(
+    columns={price.columns[1]: "price"}
+)
+
+amenities = amenities[["Suburb", "sports_and_amenities_score"]].rename(
+    columns={"sports_and_amenities_score": "amenities"}
+)
+
+transport = transport[["Suburb", "TRANSPORT_SCORE_10"]].rename(
+    columns={"TRANSPORT_SCORE_10": "transport"}
+)
 
 # Master suburb list
 df = greater_sydney[["Suburb"]]

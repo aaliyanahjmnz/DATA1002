@@ -79,3 +79,30 @@ plt.title(
 
 plt.axis("off")
 plt.show()
+
+# Top 10 suburbs
+top10 = (
+    map_df[[
+        "Suburb",
+        "Student_Liveability_Index",
+        "price",
+        "crime",
+        "transport",
+        "amenities",
+        "medical"
+    ]]
+    .head(10)
+    .reset_index(drop=True)
+)
+
+# Add ranking column
+top10.index += 1
+top10.index.name = "Rank"
+
+print(top10)
+
+# Save to CSV
+top10.to_csv(
+    "datasets/scores/top_10_suburbs.csv",
+    index=True
+)
