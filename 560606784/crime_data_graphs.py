@@ -10,7 +10,7 @@ crime_data = pd.read_csv("560606784/datasets/crime_long.csv")
 crime_data["Date"] = pd.to_datetime(crime_data["Date"])
 
 # Load the population data
-population_data = pd.read_csv("datasets/suburb_population.csv")
+population_data = pd.read_csv("560606784/datasets/suburb_population.csv")
 
 # Load the crime rates data
 crime_rates_data = pd.read_csv("560606784/datasets/crime_rates.csv")
@@ -68,6 +68,15 @@ for i, v in enumerate(y):
         f"{v:.1f}",
         va="center"
     )
+
+# Saving and showing the plot
+#plt.savefig(
+#    "560606784/lowest_crime_rates.png",
+#    dpi=300,
+#    bbox_inches="tight"
+#)
+
+#plt.show()
 
 ##################### PLOT 2: CRIME COMPOSITION OF LOWEST CRIME RATES #####################
 
@@ -161,6 +170,15 @@ plt.legend(
 
 plt.tight_layout()
 
+# Saving and showing the plot
+#plt.savefig(
+#    "560606784/crime_composition_safest_suburbs.png",
+#    dpi=300,
+#    bbox_inches="tight"
+#)
+
+#plt.show()
+
 ##################### PLOT 3: CRIME RATE VS VIOLENT CRIME #####################
 
 # Get safest suburbs based on lowest crime rates
@@ -207,3 +225,12 @@ plt.xlabel("Suburb")
 plt.ylabel("Annual Recorded Crime")
 
 plt.tight_layout()
+
+# Saving and showing the plot
+#plt.savefig(
+#    "560606784/monthly_crime_distribution.png",
+#   dpi=300,
+#    bbox_inches="tight"
+#)
+
+#plt.show()

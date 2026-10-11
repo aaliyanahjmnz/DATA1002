@@ -78,6 +78,13 @@ plt.title(
 )
 
 plt.axis("off")
+
+plt.savefig(
+    "datasets/student_liveability_index_map.png",
+    dpi=300,
+    bbox_inches="tight"
+)
+
 plt.show()
 
 # Top 10 suburbs
